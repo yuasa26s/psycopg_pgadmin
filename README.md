@@ -1,4 +1,4 @@
-# psycopg_pgadmin
+# psycopg_pgadmin(プログラミング練習_問題)
 問題集の要件に基づき、CRUD処理を行い、その結果をCSVファイルに出力する4つの問題を作成します。以下がそれぞれの問題です。
 
 1. Create処理
