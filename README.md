@@ -14,3 +14,21 @@
 4. Delete処理
     - 問題: `employees`テーブルで`employee_id`が2の従業員のデータをDELETEしてください。
     - 出力: DELETE処理が成功した場合は、「Success」というメッセージをCSVファイルに出力してください。失敗した場合は、「Failure」というメッセージを出力してください。
+
+
+## 生成されたCSVファイル
+Windows側からもWSLパス経由でアクセス可能：
+\\wsl$\kali-linux\home\pino26\git_test\psycopg_pgadmin\
+├── create_result.csv    (Success + タイムスタンプ)
+├── read_result.csv      (全従業員データ)
+├── update_result.csv    (Success + タイムスタンプ) 
+└── delete_result.csv    (Success + タイムスタンプ)
+
+## 達成した目標
+✅ psycopg2によるPostgreSQL接続
+✅ pgAdmin4との連携可能な環境
+✅ 完全なCRUD操作の実装
+✅ CSV出力機能の実装
+✅ エラーハンドリングの実装
+✅ WSL環境での正常動作
+すべての要件が完全に満たされました！
